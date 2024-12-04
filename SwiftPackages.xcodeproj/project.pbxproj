@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		266495E52D003ED7002EA644 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 266495E42D003ED7002EA644 /* SDWebImageSwiftUI */; };
+		266495F62D005BF5002EA644 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 266495F52D005BF5002EA644 /* Kingfisher */; };
+		266496022D007560002EA644 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 266496012D007560002EA644 /* KeychainSwift */; };
+		2664962B2D00BFF4002EA644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266495D42D003AF5002EA644 /* Assets.xcassets */; };
+		266496482D00C0C4002EA644 /* SwiftPackagesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266496422D00C0C4002EA644 /* SwiftPackagesApp.swift */; };
+		2664965A2D00C2DD002EA644 /* Routing&UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266496592D00C2DD002EA644 /* Routing&UI.swift */; };
+		266496762D00C7F5002EA644 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 266496752D00C7F5002EA644 /* Lottie */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		266495CD2D003AF4002EA644 /* SwiftPackages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPackages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		266495D42D003AF5002EA644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		266496422D00C0C4002EA644 /* SwiftPackagesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPackagesApp.swift; sourceTree = "<group>"; };
+		266496592D00C2DD002EA644 /* Routing&UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Routing&UI.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		266496192D00BD6F002EA644 /* Animation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		266496202D00BDA9002EA644 /* Keychain */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		266496282D00BDF4002EA644 /* Preview Content */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		266496522D00C116002EA644 /* ImageLoading */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ImageLoading;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		266495CA2D003AF4002EA644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266496022D007560002EA644 /* KeychainSwift in Frameworks */,
+				266495F62D005BF5002EA644 /* Kingfisher in Frameworks */,
+				266495E52D003ED7002EA644 /* SDWebImageSwiftUI in Frameworks */,
+				266496762D00C7F5002EA644 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		266495C42D003AF4002EA644 = {
+			isa = PBXGroup;
+			children = (
+				266496492D00C104002EA644 /* App */,
+				2664961B2D00BD93002EA644 /* KeyChain */,
+				266496172D00BD5E002EA644 /* LottieAnimation */,
+				266496262D00BDD8002EA644 /* Resourses */,
+				266496252D00BDB9002EA644 /* ImagesLoaders */,
+				266496582D00C27E002EA644 /* Routing & CustomUI */,
+				266495CE2D003AF4002EA644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		266495CE2D003AF4002EA644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				266495CD2D003AF4002EA644 /* SwiftPackages.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		266496172D00BD5E002EA644 /* LottieAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				266496192D00BD6F002EA644 /* Animation */,
+			);
+			path = LottieAnimation;
+			sourceTree = "<group>";
+		};
+		2664961B2D00BD93002EA644 /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				266496202D00BDA9002EA644 /* Keychain */,
+			);
+			path = KeyChain;
+			sourceTree = "<group>";
+		};
+		266496252D00BDB9002EA644 /* ImagesLoaders */ = {
+			isa = PBXGroup;
+			children = (
+				266496522D00C116002EA644 /* ImageLoading */,
+			);
+			path = ImagesLoaders;
+			sourceTree = "<group>";
+		};
+		266496262D00BDD8002EA644 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				266496282D00BDF4002EA644 /* Preview Content */,
+				266495D42D003AF5002EA644 /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		266496492D00C104002EA644 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				266496422D00C0C4002EA644 /* SwiftPackagesApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		266496582D00C27E002EA644 /* Routing & CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				266496592D00C2DD002EA644 /* Routing&UI.swift */,
+			);
+			path = "Routing & CustomUI";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		266495CC2D003AF4002EA644 /* SwiftPackages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 266495DB2D003AF5002EA644 /* Build configuration list for PBXNativeTarget "SwiftPackages" */;
+			buildPhases = (
+				266495C92D003AF4002EA644 /* Sources */,
+				266495CA2D003AF4002EA644 /* Frameworks */,
+				266495CB2D003AF4002EA644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				266496192D00BD6F002EA644 /* Animation */,
+				266496202D00BDA9002EA644 /* Keychain */,
+				266496282D00BDF4002EA644 /* Preview Content */,
+				266496522D00C116002EA644 /* ImageLoading */,
+			);
+			name = SwiftPackages;
+			packageProductDependencies = (
+				266495E42D003ED7002EA644 /* SDWebImageSwiftUI */,
+				266495F52D005BF5002EA644 /* Kingfisher */,
+				266496012D007560002EA644 /* KeychainSwift */,
+				266496752D00C7F5002EA644 /* Lottie */,
+			);
+			productName = SwiftPackages;
+			productReference = 266495CD2D003AF4002EA644 /* SwiftPackages.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		266495C52D003AF4002EA644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					266495CC2D003AF4002EA644 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 266495C82D003AF4002EA644 /* Build configuration list for PBXProject "SwiftPackages" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 266495C42D003AF4002EA644;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				266495E32D003ED7002EA644 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				266495F42D005BF5002EA644 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				266496002D007560002EA644 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				266496742D00C7F5002EA644 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 266495CE2D003AF4002EA644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				266495CC2D003AF4002EA644 /* SwiftPackages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		266495CB2D003AF4002EA644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2664962B2D00BFF4002EA644 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		266495C92D003AF4002EA644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2664965A2D00C2DD002EA644 /* Routing&UI.swift in Sources */,
+				266496482D00C0C4002EA644 /* SwiftPackagesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		266495D92D003AF5002EA644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		266495DA2D003AF5002EA644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		266495DC2D003AF5002EA644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Resourses\"";
+				DEVELOPMENT_TEAM = LT54Q8Z33F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.eliseev.dmitry.SwiftPackages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		266495DD2D003AF5002EA644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Resourses\"";
+				DEVELOPMENT_TEAM = LT54Q8Z33F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.eliseev.dmitry.SwiftPackages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		266495C82D003AF4002EA644 /* Build configuration list for PBXProject "SwiftPackages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266495D92D003AF5002EA644 /* Debug */,
+				266495DA2D003AF5002EA644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		266495DB2D003AF5002EA644 /* Build configuration list for PBXNativeTarget "SwiftPackages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266495DC2D003AF5002EA644 /* Debug */,
+				266495DD2D003AF5002EA644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		266495E32D003ED7002EA644 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+		266495F42D005BF5002EA644 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.1;
+			};
+		};
+		266496002D007560002EA644 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.0.0;
+			};
+		};
+		266496742D00C7F5002EA644 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		266495E42D003ED7002EA644 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 266495E32D003ED7002EA644 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		266495F52D005BF5002EA644 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 266495F42D005BF5002EA644 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		266496012D007560002EA644 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 266496002D007560002EA644 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+		266496752D00C7F5002EA644 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 266496742D00C7F5002EA644 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 266495C52D003AF4002EA644 /* Project object */;
+}
